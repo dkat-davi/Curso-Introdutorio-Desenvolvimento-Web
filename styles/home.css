@@ -35,7 +35,7 @@ main {
 }
 
 .right img {
-  background-color: white;
+  background-color: rgb(100, 129, 232);
   border-radius: 10%;
   padding: 1.5rem;
   width: 90%;
@@ -51,3 +51,5 @@ main {
     flex-direction: column;
   }
 }
+
+
