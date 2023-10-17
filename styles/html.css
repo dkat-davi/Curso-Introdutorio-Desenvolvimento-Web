@@ -1,6 +1,6 @@
 main {
   flex-direction: column;
-  max-width: 70%;
+  align-items: center;
 }
 
 main h1{
@@ -13,32 +13,42 @@ main p {
   text-align: justify;
 }
 
-main img {
-  width: 100%;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.practice {
+.wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  gap: 2rem;
+  border-radius: 1rem;
+  border: .2rem solid #171c59;
+  width: 70%;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-.practice a {
-  background-color: rgb(46, 6, 73);
-  color: rgb(190, 99, 231);
-  text-decoration: none;
-  margin: 2rem;
-  padding: 2rem;
-  font-weight: 700;
-  border-radius: 3rem;
-  width: 20%;
-  text-align: center;
-  font-size: 1.8rem;
+.wrapper img {
+  width: 5rem;
 }
 
-.practice a:hover {
-  scale: 1.05;
-  transition: all .2s cubic-bezier(0.47, 0, 0.745, 0.715);
-  background-color: rgb(116, 116, 116);
+.wrapper a { 
+  color: white;
 }
+
+.exercises {
+  width: 70%;
+  padding: 1rem;
+}
+
+.exercises ul {
+  margin-left: 3rem;
+  font-size: larger;
+}
+
+.exercises a {
+  color: white;
+}
+
